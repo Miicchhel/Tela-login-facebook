@@ -12,14 +12,63 @@ html, body{
 }
 
 .clear{clear: both;}
-
-.center{
-	max-width: 1100px;
-	padding:0 2%;
-	margin:0 auto;
+	
+header{
 	background-color: #3e5b99;
 }
+.center{
+	max-width: 980px;
+	padding:0 2%;
+	margin:0 auto;
+}
 
-.logo{
+div.logo{
+	float: left;
+	font-size: 20px;
+}
+
+.logo, .form-element{
 	color: white;
+}
+
+form.form-login{
+	float: right;
+}
+
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.form-element p{
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+	margin-top: 4px;
+}
+
+.form-element input[type=submit]{
+	cursor: pointer;
+	color: white;
+	background-color: #366cca;
+	border: 1px solid #344c7f;
+	padding: 3px 10px;
+}
+
+.form-element input[type=submit]:hover{
+	background-color: #3b5691;
+}
+
+.esq-conta{
+	width: 71%;
+	text-align: right;
+}
+.esq-conta a{
+	color:#9cb4d8;
+	font-size: 14px;
+	text-decoration: none;
+
 }
